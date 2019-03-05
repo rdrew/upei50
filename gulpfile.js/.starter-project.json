@@ -1,0 +1,62 @@
+{
+  "proot": "./",
+  "src": "src",
+  "dist": "build",
+  "sync": {
+    "run": true
+  },
+  "html": {
+    "run": false
+  },
+  "css": {
+    "run": true,
+    "sass": true,
+    "src": "sass",
+    "dist": "css",
+    "minify": true,
+    "autoprefix": true,
+    "sourcemaps": true,
+    "lint": false
+  },
+  "js": {
+    "run": true,
+    "src": "js",
+    "dist": "js",
+    "uglify": false,
+    "sourcemaps": false,
+    "lint": false
+  },
+  "gfx": {
+    "run": true,
+    "src": "images",
+    "dist": "images"
+  },
+  "fonts": {
+    "run": true,
+    "src": "fonts",
+    "dist": "fonts"
+  },
+  "favicon": {
+    "run": true
+  },
+  "critical": {
+    "run": false
+  },
+  "gzip": {
+    "run": false
+  },
+  "kss": {
+    "run": true,
+    "dist": "docs/styleguide"
+  },
+  "sassdoc": {
+    "run": false
+  },
+  "jsdoc": {
+    "run": false
+  },
+  "bump": {
+    "run": false
+  },
+  "yarn": true
+}
