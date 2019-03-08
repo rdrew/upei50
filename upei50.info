@@ -12,6 +12,12 @@ stylesheets[all][] = build/css/upei50.reset.css
 stylesheets[all][] = build/css/upei50.styles.css
 
 ; ========================================
+; FOAD
+; ========================================
+stylesheets[all][] = system.menus.theme.css
+;stylesheets[all][] = system.theme.css
+
+; ========================================
 ; Scripts
 ; ========================================
 scripts[] = build/js/upei50.behaviors.js

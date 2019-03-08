@@ -11,7 +11,24 @@ function syncStart (cb) {
 
     if (syncConfig.proxy) {
       thisConfig = Object.assign({}, syncConfig, {
-        proxy: syncConfig.proxy
+        //proxy: syncConfig.proxy,
+        injectChanges: true,
+        proxy: "http://upei50.dd:8083",
+        serveStatic: ['.'],
+        //files: ['./css/style.css','./js/js.js'],
+        files: ['./build/css/upei50.styles.css'],
+        plugins: ['bs-rewrite-rules'],
+        rewriteRules: [
+            {
+                match: 'http://upei50.dd:8083/sites/all/themes/upei50/build/css/upei50.styles.css?po29th',
+                replace: '/build/css/upei50.styles.css'
+            }
+//            {
+ //               match: '/themes/custom/lmmi_journal/css/',
+  //              replace: '/css/'
+   //         }
+        ]
+
       })
     } else {
       const thisServer = syncConfig.server.baseDir

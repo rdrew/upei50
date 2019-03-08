@@ -1,0 +1,42 @@
+.site-logo {
+  width: 250px;
+  img {
+      width: 100%;
+max-height: initial;
+  }
+}
+.l-header, .l-main {
+  @extend .container;
+  //@at-root {
+    //.l-branding {
+      //@extend .level;
+    //}
+  //}
+}
+.navbar-menu {
+    align-items: center;
+}
+nav .menu {
+    @extend .navbar-menu;
+    //a {
+        //@extend .navbar-item;
+    //}
+}
+
+nav .menu a {
+
+        @extend .navbar-item;
+    }
+
+.menu .leaf {
+    list-style-image: none;
+    list-style-type: none;
+}
+.main-menu-container {
+
+}
+ .user-menu-container   .menu a {
+        @extend .button;
+        @extend .is-primary;
+        
+    }

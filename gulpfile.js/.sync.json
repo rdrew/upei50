@@ -1,6 +1,4 @@
 {
   "port": 8080,
-  "server": {
-    "baseDir": ""
-  }
+  "proxy": "http://upei50.dd:8083"
 }

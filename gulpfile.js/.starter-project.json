@@ -19,17 +19,12 @@
     "lint": false
   },
   "js": {
-    "run": true,
-    "src": "js",
-    "dist": "js",
-    "uglify": false,
-    "sourcemaps": false,
-    "lint": false
+    "run": false
   },
   "gfx": {
     "run": true,
-    "src": "images",
-    "dist": "images"
+    "src": "gfx",
+    "dist": "gfx"
   },
   "fonts": {
     "run": true,
@@ -37,7 +32,7 @@
     "dist": "fonts"
   },
   "favicon": {
-    "run": true
+    "run": false
   },
   "critical": {
     "run": false
@@ -46,8 +41,7 @@
     "run": false
   },
   "kss": {
-    "run": true,
-    "dist": "docs/styleguide"
+    "run": false
   },
   "sassdoc": {
     "run": false

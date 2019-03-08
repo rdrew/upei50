@@ -1,0 +1,15 @@
+.form-text {
+    @extend .input;
+}
+textarea {
+    @extend .textarea;
+}
+.form-file {
+    //@extend .input;
+}
+#edit-cancel {
+    @extend .button;
+}
+//.form-item > label {
+    //@extend .label;
+//}
