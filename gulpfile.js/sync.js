@@ -13,14 +13,15 @@ function syncStart (cb) {
       thisConfig = Object.assign({}, syncConfig, {
         //proxy: syncConfig.proxy,
         injectChanges: true,
-        proxy: "http://upei50.dd:8083",
+        proxy: "http://upei50.dev.islandarchives.ca",
         serveStatic: ['.'],
         //files: ['./css/style.css','./js/js.js'],
         files: ['./build/css/upei50.styles.css'],
         plugins: ['bs-rewrite-rules'],
         rewriteRules: [
             {
-                match: 'http://upei50.dd:8083/sites/all/themes/upei50/build/css/upei50.styles.css?po29th',
+                match: 'http://upei50.dev.islandarchives.ca/sites/upei50.dev.islandarchives.ca/themes/upei50/build/css/upei50.styles.css?po9fgc',
+
                 replace: '/build/css/upei50.styles.css'
             }
 //            {
