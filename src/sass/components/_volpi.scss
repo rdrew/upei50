@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Abril+Fatface|Open+Sans:400,700|Source+Code+Pro');
+@import url("https://fonts.googleapis.com/css?family=Abril+Fatface|Open+Sans:400,700|Source+Code+Pro");
 
 /*
 Volpi 1.0
@@ -7,191 +7,204 @@ Volpi is released under the MIT License
 http://www.tipue.com/grids
 */
 
+$bg-image-a: url("../gfx/dalton_hall.jpg");
+$bg-image-b: url("../gfx/marian-college-harris-2.jpg");
+
+figure.orbit-figure::after {
+  display: block;
+  position: relative;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
+  height: 800px;
+  content: "";
+  margin-top: -800px;
+}
+.content-1 {
+  .font-1 {
+    background: #2929298a;
+    border-radius: 10px 10px 0 0;
+    padding-top: 1rem;
+    border: 4px double #ccc;
+    border-bottom: 0;
+  }
+  .font-2 {
+    background: #2929298a;
+    border-radius: 0 0 10px 10px;
+    padding-bottom: 1rem;
+    border: 4px double #ccc;
+    border-top: 0;
+  }
+}
 .node-type-landing-page {
-    *
-    {
-        box-sizing: border-box;
-    }
+  * {
+    box-sizing: border-box;
+  }
 
-    html, body
-    {
-        padding: 0;
-        margin: 0;
-        background-color: #252525;
-    }
+  html,
+  body {
+    padding: 0;
+    margin: 0;
+    background-color: #252525;
+  }
 
-    .section-1
-    {
-        background: url('../gfx/upei--snow.jpg') no-repeat fixed;
-        background-size: cover;
-        background-position: center;
-        height: 100vh;
-        background-color: rgba(0, 0, 0, 0.5);
-    }
-    .section-2
-    {
-        background: url('../gfx/yogee.jpg') no-repeat fixed;
-        background-size: cover;
-        background-position: center;
-        height: 100vh;
-    }
-    .section-3
-    {
-        margin: 0 auto;
-        max-width: 1390px;
-    }
-    .section-4
-    {
-        height: 60px;
-        background-color: #222;
-        text-align: center;
-        padding-top: 17px;
-    }
+  .section-1 {
+    background: $bg-image-a no-repeat fixed;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.5);
+  }
+  .section-2 {
+    background: $bg-image-b no-repeat fixed;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+  }
+  .section-3 {
+    margin: 0 auto;
+    max-width: 1390px;
+  }
+  .section-4 {
+    height: 60px;
+    background-color: #222;
+    text-align: center;
+    padding-top: 17px;
+  }
 
-    .item-1
-    {
-        background-color: #f1c40f;
-    }
-    .item-2, .item-4
-    {
-        background-size: cover;
-        background-image: url('../gfx/ashby.jpg');
-        min-height: 430px;
-    }
-    .item-3
-    {
-        background-color: #eccc68;
-    }
-    .item-4
-    {
-        background-image: url('../gfx/dan.jpg');
-    }
-    .item-5, .item-6, .item-8
-    {
-        background-color: #aaa69d;  
-    }
-    .item-7
-    {
-        background-color: #333;  
-    }
+  .item-1 {
+    background-color: #f1c40f;
+    background-color: $upei-green;
+  }
+  .item-2,
+  .item-4 {
+    background-size: cover;
+    background-image: url("../gfx/ashby.jpg");
+    min-height: 430px;
+  }
+  .item-3 {
+    background-color: #eccc68;
+    background-color: $upei-yellow;
+  }
+  .item-4 {
+    background-image: url("../gfx/dan.jpg");
+  }
+  .item-5,
+  .item-6,
+  .item-8 {
+    background-color: $upei-red;
+  }
+  .item-7 {
+    background-color: #333;
+  }
 
-    .content-1, .content-5
-    {
-        margin: 0 auto;
-        max-width: 760px;
-        padding: 210px 30px 0 30px;
-        text-align: center;
-    }
-    .content-2
-    {
-        padding-top: 33px;
-    }
-    .content-3
-    {
-        position: absolute;
-        bottom: 40px;
-        width: 100%;
-        text-align: center;
-    }
-    .content-4
-    {
-        font-size: 60px;
-        line-height: 1;
-    }
-    .content-5
-    {
-        padding: 70px 30px;
-    }
-    .content-6
-    {
-        padding-top: 30px;
-    }
-    .content-7, .content-8 
-    {
-        margin: 0 auto;
-        max-width: 570px;
-        padding: 70px 30px;
-        text-align: center;
-    }
-    .content-8
-    {
-        padding: 43px 30px;
-    }
+  .content-1,
+  .content-5 {
+    margin: 0 auto;
+    max-width: 760px;
+    padding: 210px 30px 0 30px;
+    text-align: center;
+  }
+  .content-2 {
+    padding-top: 33px;
+  }
+  .content-3 {
+    position: absolute;
+    bottom: 40px;
+    width: 100%;
+    text-align: center;
+  }
+  .content-4 {
+    font-size: 60px;
+    line-height: 1;
+  }
+  .content-5 {
+    padding: 70px 30px;
+  }
+  .content-6 {
+    padding-top: 30px;
+  }
+  .content-7,
+  .content-8 {
+    margin: 0 auto;
+    max-width: 570px;
+    padding: 70px 30px;
+    text-align: center;
+  }
+  .content-8 {
+    padding: 43px 30px;
+  }
 
-    .font-1
-    {
-        font: 70px/1.1 'Abril Fatface', serif;
-        color: #fff;
-    }
-    .font-2, .font-3, .font-4
-    {
-        font: 20px/1.7 'Open Sans', sans-serif;
-        color: #fff;
-        text-transform: uppercase;
-        letter-spacing: 2px;
-    }
-    .font-3
-    {
-        font: 700 24px/1.7 'Open Sans', sans-serif;
-    }
-    .font-4
-    {
-        font: 14px/1.6 'Source Code Pro', monospace;
-        text-transform: uppercase;
-        color: #fff;
-    }
-    .font-2 a, .font-4 a
-    {
-        color: #fff;
-        text-decoration: none;
-        border-bottom: 2px solid #fff;
-    }
-    .font-2 a:hover, .font-4 a:hover
-    {
-        border: 0;
-    }
+  .font-1 {
+    font: 70px/1.1 $family-sans-serif;
+    font-weight: 800;
+    color: #fff;
+  }
+  .font-2,
+  .font-3,
+  .font-4 {
+    font: 20px/1.7 "Open Sans", sans-serif;
+    color: #fff;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+  }
+  .font-3 {
+    font: 700 24px/1.7 "Open Sans", sans-serif;
+  }
+  .font-4 {
+    font: 14px/1.6 "Source Code Pro", monospace;
+    text-transform: uppercase;
+    color: #fff;
+  }
+  .font-2 a,
+  .font-4 a {
+    color: #fff;
+    text-decoration: none;
+    border-bottom: 2px solid #fff;
+  }
+  .font-2 a:hover,
+  .font-4 a:hover {
+    border: 0;
+  }
 
-    .click-grid
-    {
-        text-decoration: none;
-        display: block;
-        height: 100%;
-    }
+  .click-grid {
+    text-decoration: none;
+    display: block;
+    height: 100%;
+  }
 
-    @media (min-width: 900px)
-    {
-        .grid
-        {
-            display: grid;
-            grid-template-columns: repeat(6, 1fr);
-            grid-template-rows: repeat(6, 1fr);
-            grid-gap: 0;
-        }
-        .item-1
-        {
-            grid-column: span 6;
-            grid-row: span 3;    
-        }  
-        .item-2, .item-3, .item-4, .item-5, .item-6, .item-7, .item-8
-        {
-            grid-column: span 3;
-            grid-row: span 3;    
-        }
-        .item-4, .item-8
-        {
-            order: 1;
-        }
+  @media (min-width: 900px) {
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(6, 1fr);
+      grid-template-rows: repeat(6, 1fr);
+      grid-gap: 0;
     }
+    .item-1 {
+      grid-column: span 6;
+      grid-row: span 3;
+    }
+    .item-2,
+    .item-3,
+    .item-4,
+    .item-5,
+    .item-6,
+    .item-7,
+    .item-8 {
+      grid-column: span 3;
+      grid-row: span 3;
+    }
+    .item-4,
+    .item-8 {
+      order: 1;
+    }
+  }
 
-    @media (max-width: 600px)
-    {
-        .content-1
-        {
-            padding-top: 50px;
-        }
-        .item-2, .item-4
-        {
-            min-height: 230px;
-        }    
+  @media (max-width: 600px) {
+    .content-1 {
+      padding-top: 50px;
     }
+    .item-2,
+    .item-4 {
+      min-height: 230px;
+    }
+  }
 }
