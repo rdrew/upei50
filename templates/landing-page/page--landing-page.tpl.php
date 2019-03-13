@@ -75,6 +75,7 @@
 
 <!--_____ Navbar _____-->
 <nav class="navbar" role="navigation" aria-label="main navigation">
+
   <div class="navbar-brand">
       <?php if ($logo): ?>
         <a href="<?php print $front_page; ?>" title="<?php print t('Home'); ?>" rel="home" class="navbar-item site-logo"><img src="<?php print $logo; ?>" alt="<?php print t('Home'); ?>" /></a>
@@ -85,6 +86,7 @@
       <span aria-hidden="true"></span>
     </a>
   </div>
+
 
   <div id="navbarBasicExample" class="navbar-menu">
     <div class="navbar-start main-menu_container">
@@ -99,8 +101,8 @@
 <!--_____ /Navbar _____-->
 <div class="section-1">
 <div class="content-1">
-<div class="font-1">Volpi</div>
-<div class="content-2 font-2">Volpi is an open source responsive CSS Grid with parallax scrolling elements, viewport height and centred grids.<p>Get Volpi <a href="http://www.tipue.com/grids/">here</a>.</div>
+<div class="font-1">Celebrating 50 Years of UPEI</div>
+<div class="content-2 font-2">In 2019, the University of Prince Edward Island is marking a major milestone, celebrating 50 years serving as a leader in education and research.</div>
 </div>
 <div class="content-3 font-2">
 Learn More
