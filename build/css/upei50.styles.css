@@ -12788,142 +12788,142 @@ Copyright (c) 2019 Tipue
 Volpi is released under the MIT License
 http://www.tipue.com/grids
 */
-.section-lp * {
+.node-type-landing-page * {
   -webkit-box-sizing: border-box;
   box-sizing: border-box; }
 
-.section-lp html, .section-lp body {
+.node-type-landing-page html, .node-type-landing-page body {
   padding: 0;
   margin: 0;
   background-color: #252525; }
 
-.section-lp .section-1 {
+.node-type-landing-page .section-1 {
   background: url("../gfx/upei--snow.jpg") no-repeat fixed;
   background-size: cover;
   background-position: center;
   height: 100vh;
   background-color: rgba(0, 0, 0, 0.5); }
 
-.section-lp .section-2 {
+.node-type-landing-page .section-2 {
   background: url("../gfx/yogee.jpg") no-repeat fixed;
   background-size: cover;
   background-position: center;
   height: 100vh; }
 
-.section-lp .section-3 {
+.node-type-landing-page .section-3 {
   margin: 0 auto;
   max-width: 1390px; }
 
-.section-lp .section-4 {
+.node-type-landing-page .section-4 {
   height: 60px;
   background-color: #222;
   text-align: center;
   padding-top: 17px; }
 
-.section-lp .item-1 {
+.node-type-landing-page .item-1 {
   background-color: #f1c40f; }
 
-.section-lp .item-2, .section-lp .item-4 {
+.node-type-landing-page .item-2, .node-type-landing-page .item-4 {
   background-size: cover;
   background-image: url("../gfx/ashby.jpg");
   min-height: 430px; }
 
-.section-lp .item-3 {
+.node-type-landing-page .item-3 {
   background-color: #eccc68; }
 
-.section-lp .item-4 {
+.node-type-landing-page .item-4 {
   background-image: url("../gfx/dan.jpg"); }
 
-.section-lp .item-5, .section-lp .item-6, .section-lp .item-8 {
+.node-type-landing-page .item-5, .node-type-landing-page .item-6, .node-type-landing-page .item-8 {
   background-color: #aaa69d; }
 
-.section-lp .item-7 {
+.node-type-landing-page .item-7 {
   background-color: #333; }
 
-.section-lp .content-1, .section-lp .content-5 {
+.node-type-landing-page .content-1, .node-type-landing-page .content-5 {
   margin: 0 auto;
   max-width: 760px;
   padding: 210px 30px 0 30px;
   text-align: center; }
 
-.section-lp .content-2 {
+.node-type-landing-page .content-2 {
   padding-top: 33px; }
 
-.section-lp .content-3 {
+.node-type-landing-page .content-3 {
   position: absolute;
   bottom: 40px;
   width: 100%;
   text-align: center; }
 
-.section-lp .content-4 {
+.node-type-landing-page .content-4 {
   font-size: 60px;
   line-height: 1; }
 
-.section-lp .content-5 {
+.node-type-landing-page .content-5 {
   padding: 70px 30px; }
 
-.section-lp .content-6 {
+.node-type-landing-page .content-6 {
   padding-top: 30px; }
 
-.section-lp .content-7, .section-lp .content-8 {
+.node-type-landing-page .content-7, .node-type-landing-page .content-8 {
   margin: 0 auto;
   max-width: 570px;
   padding: 70px 30px;
   text-align: center; }
 
-.section-lp .content-8 {
+.node-type-landing-page .content-8 {
   padding: 43px 30px; }
 
-.section-lp .font-1 {
+.node-type-landing-page .font-1 {
   font: 70px/1.1 'Abril Fatface', serif;
   color: #fff; }
 
-.section-lp .font-2, .section-lp .font-3, .section-lp .font-4 {
+.node-type-landing-page .font-2, .node-type-landing-page .font-3, .node-type-landing-page .font-4 {
   font: 20px/1.7 'Open Sans', sans-serif;
   color: #fff;
   text-transform: uppercase;
   letter-spacing: 2px; }
 
-.section-lp .font-3 {
+.node-type-landing-page .font-3 {
   font: 700 24px/1.7 'Open Sans', sans-serif; }
 
-.section-lp .font-4 {
+.node-type-landing-page .font-4 {
   font: 14px/1.6 'Source Code Pro', monospace;
   text-transform: uppercase;
   color: #fff; }
 
-.section-lp .font-2 a, .section-lp .font-4 a {
+.node-type-landing-page .font-2 a, .node-type-landing-page .font-4 a {
   color: #fff;
   text-decoration: none;
   border-bottom: 2px solid #fff; }
 
-.section-lp .font-2 a:hover, .section-lp .font-4 a:hover {
+.node-type-landing-page .font-2 a:hover, .node-type-landing-page .font-4 a:hover {
   border: 0; }
 
-.section-lp .click-grid {
+.node-type-landing-page .click-grid {
   text-decoration: none;
   display: block;
   height: 100%; }
 
 @media (min-width: 900px) {
-  .section-lp .grid {
+  .node-type-landing-page .grid {
     display: grid;
     grid-template-columns: repeat(6, 1fr);
     grid-template-rows: repeat(6, 1fr);
     grid-gap: 0; }
-  .section-lp .item-1 {
+  .node-type-landing-page .item-1 {
     grid-column: span 6;
     grid-row: span 3; }
-  .section-lp .item-2, .section-lp .item-3, .section-lp .item-4, .section-lp .item-5, .section-lp .item-6, .section-lp .item-7, .section-lp .item-8 {
+  .node-type-landing-page .item-2, .node-type-landing-page .item-3, .node-type-landing-page .item-4, .node-type-landing-page .item-5, .node-type-landing-page .item-6, .node-type-landing-page .item-7, .node-type-landing-page .item-8 {
     grid-column: span 3;
     grid-row: span 3; }
-  .section-lp .item-4, .section-lp .item-8 {
+  .node-type-landing-page .item-4, .node-type-landing-page .item-8 {
     -webkit-box-ordinal-group: 2;
     -ms-flex-order: 1;
     order: 1; } }
 
 @media (max-width: 600px) {
-  .section-lp .content-1 {
+  .node-type-landing-page .content-1 {
     padding-top: 50px; }
-  .section-lp .item-2, .section-lp .item-4 {
+  .node-type-landing-page .item-2, .node-type-landing-page .item-4 {
     min-height: 230px; } }

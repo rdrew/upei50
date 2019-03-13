@@ -20,7 +20,7 @@ function syncStart (cb) {
         plugins: ['bs-rewrite-rules'],
         rewriteRules: [
             {
-                match: 'http://upei50.dev.islandarchives.ca/sites/upei50.dev.islandarchives.ca/themes/upei50/build/css/upei50.styles.css?po9fgc',
+                match: 'http://upei50.dev.islandarchives.ca/sites/upei50.dev.islandarchives.ca/themes/upei50/build/css/upei50.styles.css',
 
                 replace: '/build/css/upei50.styles.css'
             }
