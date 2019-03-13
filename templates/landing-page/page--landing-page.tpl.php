@@ -72,9 +72,31 @@
 
 <?php $main_menu_tree = menu_tree(variable_get('menu_main_links_source', 'main-menu')); ?>
 <?php $main_menu_tree1 = menu_tree(variable_get('menu_main_links_source', 'user-menu')); ?>
-<?php print drupal_render($main_menu_tree); ?>
-<?php print_r(drupal_render($main_menu_tree1)); ?>
 
+<!--_____ Navbar _____-->
+<nav class="navbar" role="navigation" aria-label="main navigation">
+  <div class="navbar-brand">
+      <?php if ($logo): ?>
+        <a href="<?php print $front_page; ?>" title="<?php print t('Home'); ?>" rel="home" class="navbar-item site-logo"><img src="<?php print $logo; ?>" alt="<?php print t('Home'); ?>" /></a>
+      <?php endif; ?>
+    <a role="button" class="navbar-burger burger" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
+      <span aria-hidden="true"></span>
+      <span aria-hidden="true"></span>
+      <span aria-hidden="true"></span>
+    </a>
+  </div>
+
+  <div id="navbarBasicExample" class="navbar-menu">
+    <div class="navbar-start main-menu_container">
+<?php print drupal_render($main_menu_tree); ?>
+    </div>
+
+    <div class="navbar-end user-menu-container">
+    <?php print_r(drupal_render($main_menu_tree1)); ?>
+    </div>
+  </div>
+</nav>
+<!--_____ /Navbar _____-->
 <div class="section-1">
 <div class="content-1">
 <div class="font-1">Volpi</div>
