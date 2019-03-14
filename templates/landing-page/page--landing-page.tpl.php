@@ -92,11 +92,11 @@
 
 
   <div id="navbarBasicExample" class="navbar-menu">
-    <div class="navbar-start main-menu_container">
+    <div class="navbar-start main-menu">
 <?php print drupal_render($main_menu_tree); ?>
     </div>
 
-    <div class="navbar-end user-menu-container">
+    <div class="navbar-end user-menu">
     <?php print_r(drupal_render($main_menu_tree1)); ?>
     </div>
   </div>
