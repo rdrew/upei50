@@ -25,7 +25,7 @@ scripts[] = upei50.behaviors.js
 ; ========================================
 ; Regions
 ; ========================================
-regions[branding] = Branding
+regions[navbar] = Navbar
 regions[header] = Header
 regions[navigation] = Navigation
 regions[highlighted] = Highlighted

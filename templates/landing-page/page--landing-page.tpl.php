@@ -53,7 +53,7 @@
  *   comment/reply/12345).
  *
  * Regions:
- * - $page['branding']: Items for the branding region.
+ * - $page['navbar']: Items for the navbar region.
  * - $page['header']: Items for the header region.
  * - $page['navigation']: Items for the navigation region.
  * - $page['help']: Dynamic help text, mostly for admin pages.
@@ -72,6 +72,9 @@
 
 <?php $main_menu_tree = menu_tree(variable_get('menu_main_links_source', 'main-menu')); ?>
 <?php $main_menu_tree1 = menu_tree(variable_get('menu_main_links_source', 'user-menu')); ?>
+
+
+<!--_____ Navbar region layout _____-->
 
 <!--_____ Navbar _____-->
 <nav class="navbar" role="navigation" aria-label="main navigation">

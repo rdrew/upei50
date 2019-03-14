@@ -1,3 +1,4 @@
+<?php
 /**
  * @file
  * Default theme implementation to display a single Drupal page.
@@ -52,7 +53,7 @@
  *   comment/reply/12345).
  *
  * Regions:
- * - $page['branding']: Items for the branding region.
+ * - $page['navbar']: Items for the navbar region.
  * - $page['header']: Items for the header region.
  * - $page['navigation']: Items for the navigation region.
  * - $page['help']: Dynamic help text, mostly for admin pages.
@@ -77,7 +78,7 @@
 
   <div class="l-page">
   <header class="l-header" role="banner">
-    <div class="l-branding">
+    <div class="l-navbar">
 <nav class="navbar" role="navigation" aria-label="main navigation">
   <div class="navbar-brand">
       <?php if ($logo): ?>
@@ -115,7 +116,7 @@
       <?php endif; ?>
 -->
 
-      <?php print render($page['branding']); ?>
+      <?php print render($page['navbar']); ?>
     </div>
 
     <?php print render($page['header']); ?>
