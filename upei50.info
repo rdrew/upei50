@@ -21,6 +21,7 @@ stylesheets[all][] = foad/system.menus.theme.css
 ; Scripts
 ; ========================================
 scripts[] = upei50.behaviors.js
+scripts[] = js-plugins/bulma-accordion.min.js
 
 ; ========================================
 ; Regions

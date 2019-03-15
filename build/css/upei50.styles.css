@@ -12532,6 +12532,26 @@ h6 {
 .shortcut-toolbar {
   display: none; }
 
+.simple_timeline ul li:nth-child(even) > article,
+.simple_timeline ul li:nth-child(even) > div {
+  display: block;
+  float: left;
+  background: url("../gfx/li-bg.png") left center no-repeat;
+  margin-left: -10px;
+  padding-left: 30px; }
+
+.simple_timeline ul li:nth-child(even) > article .timeline-date,
+.simple_timeline ul li:nth-child(even) > div .timeline-date {
+  text-align: left; }
+
+.simple_timeline ul li:nth-child(odd) > article,
+.simple_timeline ul li:nth-child(odd) > div {
+  display: block;
+  float: right;
+  background: url("./img/li-bg.png") right center no-repeat;
+  margin-right: -10px;
+  padding-right: 30px; }
+
 /*
 Volpi 1.0
 Copyright (c) 2019 Tipue

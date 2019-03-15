@@ -1387,6 +1387,11 @@ buffers@~0.1.1:
   resolved "https://registry.yarnpkg.com/buffers/-/buffers-0.1.1.tgz#b24579c3bed4d6d396aeee6d9a8ae7f5482ab7bb"
   integrity sha1-skV5w77U1tOWru5tmorn9Ugqt7s=
 
+bulma-extensions@^6.2.3:
+  version "6.2.3"
+  resolved "https://registry.yarnpkg.com/bulma-extensions/-/bulma-extensions-6.2.3.tgz#e6743145c324f8327c19667a9df3103154a8a08c"
+  integrity sha512-yR8v/GNzEdpXZ+MINkPqdBAw97DVwSWqlKduUAKrMUwP3jwCwpOg3/JrBZFt1t00t7bfJqP1u1N7xUo3efrqQg==
+
 bulma@^0.7.4:
   version "0.7.4"
   resolved "https://registry.yarnpkg.com/bulma/-/bulma-0.7.4.tgz#7e74512e9118d9799021339e67e365ee0ac4f3f9"
@@ -2868,6 +2873,11 @@ follow-redirects@^1.2.5, follow-redirects@^1.3.0:
   integrity sha512-m/pZQy4Gj287eNy94nivy5wchN3Kp+Q5WgUPNy5lJSZ3sgkVKSYV/ZChMAQVIgx1SqfZ2zBZtPA2YlXIWxxJOQ==
   dependencies:
     debug "^3.2.6"
+
+fontawesome@^5.6.3:
+  version "5.6.3"
+  resolved "https://registry.yarnpkg.com/fontawesome/-/fontawesome-5.6.3.tgz#73f0b865fa2b0b384e69d531c05a02c643b72f95"
+  integrity sha512-FCc+CawwsJWWprVEg9X14yI7zI+l9YVAyhzgu70qwGeDn0tLLDH/dVfqgij72g4BBGgLGfK2qnvFGAmYUkhaWg==
 
 for-in@^1.0.1, for-in@^1.0.2:
   version "1.0.2"
