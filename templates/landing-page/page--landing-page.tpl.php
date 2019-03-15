@@ -107,6 +107,20 @@
 <div class="font-1">Celebrating 50 Years of UPEI</div>
 <div class="content-2 font-2">In 2019, the University of Prince Edward Island is marking a major milestone, celebrating 50 years serving as a leader in education and research.</div>
 </div>
+<!--
+      <?php if ($site_name || $site_slogan): ?>
+        <?php if ($site_name): ?>
+				<div class="font-1 site-name"><?php print $site_name; ?></div>
+
+						<a href="<?php print $front_page; ?>" title="<?php print t('Home'); ?>" rel="home"><span><?php print $site_name; ?></span></a>
+
+        <?php endif; ?>
+
+        <?php if ($site_slogan): ?>
+          <h2 class="site-slogan"><?php print $site_slogan; ?></h2>
+        <?php endif; ?>
+      <?php endif; ?>
+-->
 <div class="content-3 font-2">
 Learn More
 <div class="content-4">&#8623;</div>
@@ -169,3 +183,7 @@ Learn More
 </div></div>
 
 <div class="section-4 font-4">Get Volpi <a href="http://www.tipue.com/grids/">here</a></div>
+
+  <footer class="l-footer" role="contentinfo">
+    <?php print render($page['footer']); ?>
+  </footer>
