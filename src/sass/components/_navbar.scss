@@ -32,3 +32,27 @@ nav .menu a {
     display: block;
   }
 }
+.menu .home {
+  &:before {
+    @extend %fa-icon;
+    @extend .fas;
+    content: fa-content($fa-var-home);
+  }
+}
+.menu .user {
+  &:before {
+    @extend %fa-icon;
+    @extend .fas;
+    content: fa-content($fa-var-user-circle);
+  }
+}
+.menu .logout {
+  &:before {
+    @extend %fa-icon;
+    @extend .fas;
+    content: fa-content($fa-var-sign-out-alt);
+  }
+}
+.menu *:before {
+  margin-right: 5px;
+}
