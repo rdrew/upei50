@@ -102,88 +102,8 @@
   </div>
 </nav>
 <!--_____ /Navbar _____-->
-<div class="section-1">
-<div class="content-1">
-<div class="font-1">Celebrating 50 Years of UPEI</div>
-<div class="content-2 font-2">In 2019, the University of Prince Edward Island is marking a major milestone, celebrating 50 years serving as a leader in education and research.</div>
-</div>
-<!--
-      <?php if ($site_name || $site_slogan): ?>
-        <?php if ($site_name): ?>
-				<div class="font-1 site-name"><?php print $site_name; ?></div>
 
-						<a href="<?php print $front_page; ?>" title="<?php print t('Home'); ?>" rel="home"><span><?php print $site_name; ?></span></a>
-
-        <?php endif; ?>
-
-        <?php if ($site_slogan): ?>
-          <h2 class="site-slogan"><?php print $site_slogan; ?></h2>
-        <?php endif; ?>
-      <?php endif; ?>
--->
-<div class="content-3 font-2">
-Learn More
-<div class="content-4">&#8623;</div>
-</div></div>
-
-<div class="grid">
-
-<div class="item-1">
-<div class="content-5">
-<div class="font-2">Volpi is a responsive CSS Grid layout you can hack around with and use for anything you'd like.<p>Volpi is free and open source and released under the MIT licence.<p>Get the Volpi HTML & CSS <a href="http://www.tipue.com/grids/">here</a>.</div>
-</div></div>
-
-<div class="item-2"></div>
-
-<div class="item-3"><a class="click-grid" href="http://www.tipue.com/grids/"><div class="content-7">
-<div class="font-3">Dolore duis</div>
-<div class="font-4 content-6">Nulla, blandit tation odio magna tation nonummy, dolore euismod qui ut eum iriure consectetuer commodo suscipit dolore, dolor vero nulla luptatum vero iusto, dignissim.<p>Get Volpi here.</div>
-</div></a></div>
-
-<div class="item-4"></div>
-
-<div class="item-5"><div class="content-7">
-<div class="font-3">Et ad augue</div>
-<div class="font-4 content-6">Wisi augue suscipit dolore aliquam iusto odio, dolore dolor ut ad magna exerci.<p>Consequat facilisis at, delenit feugait aliquip nulla ut hendrerit praesent facilisi consectetuer commodo quis ut lobortis tation et duis.</div>
-</div></div>
-
-</div>
-
-<div class="section-2">
-<div class="content-7">
-<div class="font-3">Nulla Rex</div>
-<div class="font-2 content-6">Vulputate dolor vel rex laoreet dolore.<p>Luptatum nisl esse aliquip, eu veniam quis ex accumsan illum nulla eros dolore vulputate.
-<div class="content-4">&#9813;</div>
-</div></div></div>
-
-
-<div class="section-3">
-<div class="grid">
-
-<div class="item-6"><div class="content-8">
-<div class="font-3">Feugiat dolore</div>
-<div class="font-4 content-6">Suscipit autem wisi iusto, at feugiat in illum dolore magna velit eum. Laoreet nisl ullamcorper at.<p>Tation blandit molestie eum exerci vero nostrud iriure tincidunt.</div>
-</div></div>
-
-<div class="item-7"><div class="content-8">
-<div class="font-3">Consequat</div>
-<div class="font-4 content-6">Vel duis in minim eum zzril, minim odio suscipit dignissim accumsan nonummy erat consequat vero nisl.<p>Enim dignissim minim ut hendrerit dolore eu aliquam esse, feugiat augue.</div>
-</div></div>
-
-<div class="item-8"><div class="content-8">
-<div class="font-3">Exerci vero</div>
-<div class="font-4 content-6">Aliquip nibh duis veniam enim at ea feugait nulla vero ut molestie exerci vero nostrud.<p>Iriure duis ipsum erat accumsan minim delenit dolore amet blandit enim.</div>
-</div></div>
-
-<div class="item-7"><div class="content-8">
-<div class="font-3">Laoreet ex</div>
-<div class="font-4 content-6">Blandit in te, tation praesent ex zzril qui laoreet ad iriure iusto commodo, euismod dolore dolor.<p>Delenit consequat consequat tation erat nostrud in blandit vel laoreet lorem consectetuer.</div>
-</div></div>
-
-</div></div>
-
-<div class="section-4 font-4">Get Volpi <a href="http://www.tipue.com/grids/">here</a></div>
-
+<?php print render($page["content"]); ?>
   <footer class="l-footer" role="contentinfo">
     <?php print render($page['footer']); ?>
   </footer>
