@@ -83,13 +83,13 @@ $site_name =  variable_get('site_name', 'Drupal');
 
 
 <!-- hero text block -->
-<div class="section-1">
+<div class="hero-text-block section-1">
 <div class="content-1">
-<div class="font-1">
+<div class="font-1 site-title">
 <?php print render($site_name); ?>
 </div>
 
-<div class="content-2 font-2">
+<div class="content-2 font-2 site-subtitle">
 <?php print render($content['field_subtitle_text']); ?>
 </div>
 </div>
