@@ -8,8 +8,8 @@ core = 7.x
 ; ========================================
 ; Stylesheets
 ; ========================================
-stylesheets[all][] = build/css/upei50.reset.css
-stylesheets[all][] = build/css/upei50.styles.css
+stylesheets[all][] = build/css/upei50.reset.min.css
+stylesheets[all][] = build/css/upei50.styles.min.css
 
 ; ========================================
 ; FOAD
