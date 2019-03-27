@@ -1,32 +1,63 @@
-'use strict';
+//@format
+"use strict";
+var bsWatchFiles, input, output, remoteSite, rewriteMatch, rewriteReplace;
+var gulp, sass, sourcemaps, autoprefixer, bs;
 
-var gulp = require('gulp');
-var sass = require('gulp-sass');
-var sourcemaps = require('gulp-sourcemaps');
-var autoprefixer = require('gulp-autoprefixer');
+//===================
+// project variables
+//===================
+input = "./src/sass/*.scss";
+output = "./dist/css";
+remoteSite = "http://upei50.dev.islandarchives.ca/";
+rewriteMatch = "/themes/custom/lmmi_journal/css/";
+rewriteReplace = "/css/";
+bsWatchFiles = ["./dist/css/upei50.style.css"];
 
-gulp.task('sass:prod', function () {
-  gulp.src('./sass/*.scss')
-    .pipe(sass().on('error', sass.logError))
-    .pipe(autoprefixer({
-       browsers: ['last 2 version']
-    }))
-    .pipe(gulp.dest('./css'));
+//===================
+// npm dependancies
+//===================
+gulp = require("gulp");
+sass = require("gulp-sass");
+sourcemaps = require("gulp-sourcemaps");
+autoprefixer = require("gulp-autoprefixer");
+bs = require("browser-sync").create();
+sass.compiler = require("node-sass");
+
+//===================
+// Browsersync Proxy
+//===================
+gulp.task("bs", function() {
+  bs.init({
+    proxy: remoteSite,
+    serveStatic: ["."],
+    files: bsWatchFiles,
+    plugins: ["bs-rewrite-rules"],
+    rewriteRules: [
+      {
+        match: rewriteMatch,
+        replace: rewriteReplace
+      }
+    ]
+  });
 });
 
-gulp.task('sass:dev', function () {
-  gulp.src('./sass/*.scss')
-    .pipe(sourcemaps.init())
-    .pipe(sass().on('error', sass.logError))
-    .pipe(autoprefixer({
-      browsers: ['last 2 version']
-    }))
-    .pipe(sourcemaps.write('.'))
-    .pipe(gulp.dest('./css'));
+//===================
+// compile sass
+//===================
+gulp.task("sass", function() {
+  return (
+    gulp
+      .src(input, { sourcemaps: true })
+      .pipe(sass().on("error", sass.logError))
+      //.pipe(autoprefixer())
+      .pipe(gulp.dest(output))
+  );
 });
 
-gulp.task('sass:watch', function () {
-  gulp.watch('./sass/**/*.scss', ['sass:dev']);
+//==================
+// Default Gulp Task
+//=================
+gulp.task("default", gulp.series("bs"), function() {
+  //watch sass folder and compile changes
+  gulp.watch(input, gulp.series("sass"));
 });
-
-gulp.task('default', ['sass:dev', 'sass:watch']);
