@@ -23,17 +23,31 @@ gulp.task('browser-sync', function() {
         //files: ['./dist/css/upei50.styles.css'],
         plugins: ['bs-rewrite-rules'],
         rewriteRules: [
-            //{
-                //match: '/themes/custom/lmmi_journal/js/',
-                //replace: '/js/'
-            //},
             {
-                match: '/themes/custom/lmmi_journal/css/',
-                replace: '/css/'
+                match: '/sites/upei50.dev.islandarchives.ca/themes/upei50/dist/js/upei50.behaviors.js',
+
+                replace: '/dist/js/upei50.behaviors.js'
+            },
+            {
+                match: '/sites/upei50.dev.islandarchives.ca/themes/upei50/dist/css/upei50.styles.css',
+
+                replace: '/dist/css/upei50.styles.css'
             }
         ]
     });
 });
+
+
+
+//====================
+// copy fonts
+//===================
+gulp.task('copyfonts', function() {
+   gulp.src('./src/fonts/**/*')
+   .pipe(gulp.dest('./dist/fonts'));
+});
+
+
 
 
 //====================
@@ -42,9 +56,6 @@ gulp.task('browser-sync', function() {
 
 gulp.task('sass', function () {
   return gulp.src('./src/sass/**/*.scss')
-        .pipe(sass({
-            //includePaths: ['./node_modules/breakpoint-sass/stylesheets']
-        }))
     .pipe(sourcemaps.init())
     .pipe(sass().on('error', sass.logError))
     .pipe(sourcemaps.write())
