@@ -1,0 +1,24 @@
+//@format
+.block-top-left {
+  //display: none;
+}
+.block02 {
+  //display: none;
+}
+
+.grid {
+  .block__title {
+    @extend .font-3;
+  }
+  .block__content {
+    @extend .font-4;
+  }
+  .content-5 {
+    .block__title {
+      @extend .font-3;
+    }
+    .block__content {
+      @extend .font-2;
+    }
+  }
+}

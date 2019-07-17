@@ -17,10 +17,15 @@
 @import "components/upei-footer";
 @import "components/navbar";
 @import "components/internal-hero";
+@import "components/lp-grid";
 
 
 h1, h2 {
     //@extend .title;
+}
+
+.block01 {
+//display: none;
 }
 
 
