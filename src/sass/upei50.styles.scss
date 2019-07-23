@@ -21,9 +21,10 @@
 
 
 h1, h2 {
-    //@extend .title;
+    @extend .title;
 }
-
+.breadcrumb {
+}
 .block01 {
 //display: none;
 }
