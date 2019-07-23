@@ -103,6 +103,56 @@
 </nav>
 <!--_____ /Navbar _____-->
 
+
+<!-- hero text block -->
+<div class="hero-text-block section-1">
+<div class="content-1">
+<div class="font-1 site-title">
+<?php print render($site_name); ?>
+</div>
+
+<div class="content-2 font-2">
+<?php print render($content['field_subtitle_text']); ?>
+</div>
+</div>
+<!-- /hero text block -->
+<div class="content-3 font-2">
+Learn More
+<div class="content-4">&#8623;</div>
+</div></div>
+<!--_____ grid 01 _____-->
+<div class="grid">
+	<div class="full_width item-1">
+		<div class="content-5">
+			<?php print render($page['lp_site_description']); ?>
+		</div>
+	</div>
+	<div class="block01 item-2">
+		<div class="block-top-left content-7">
+			<?php print render($page['lp_grid01']); ?>
+		</div>
+	</div>
+
+	<div class="block02 item-3">
+		<div class="block-top-left content-7">
+			<?php print render($page['lp_grid02']); ?>
+		</div>
+	</div>
+	<div class="block03 item-4">
+		<div class="block-bottom-right content-7">
+			<?php print render($page['lp_grid03']); ?>
+		</div>
+	</div>
+	<div class="block04 item-5">
+		<div class="block-bottom-left content-7">
+			<?php print render($page['lp_grid04']); ?>
+		</div>
+	</div>
+</div>
+<!--_____ /grid 01 _____-->
+
+
+
 <?php print render($page["content"]); ?>
   <footer class="l-footer" role="contentinfo">
     <?php print render($page['footer']); ?>
