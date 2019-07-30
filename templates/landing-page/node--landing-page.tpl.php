@@ -32,12 +32,6 @@ $site_name =  variable_get('site_name', 'Drupal');
 
 </div>
 -->
-<div class="section-2">
-<div class="content-7">
-<div class="font-3">Nulla Rex</div>
-<div class="font-2 content-6">Vulputate dolor vel rex laoreet dolore.<p>Luptatum nisl esse aliquip, eu veniam quis ex accumsan illum nulla eros dolore vulputate.
-<div class="content-4">&#9813;</div>
-</div></div></div>
 
 
 <div class="section-3">
