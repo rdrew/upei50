@@ -124,7 +124,7 @@
   </header>
 
     <section class="hero is-light">
-  <div class="hero-body">
+  <div class="internal-page-hero hero-body">
     <div class="container">
 
       <?php if ($site_name || $site_slogan): ?>

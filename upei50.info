@@ -8,8 +8,8 @@ core = 7.x
 ; ========================================
 ; Stylesheets
 ; ========================================
-stylesheets[all][] = build/css/upei50.reset.min.css
-stylesheets[all][] = build/css/upei50.styles.min.css
+stylesheets[all][] = dist/css/upei50.reset.css
+stylesheets[all][] = dist/css/upei50.styles.css
 
 ; ========================================
 ; FOAD
@@ -20,7 +20,7 @@ stylesheets[all][] = foad/system.menus.theme.css
 ; ========================================
 ; Scripts
 ; ========================================
-scripts[] = upei50.behaviors.js
+scripts[] = dist/js/upei50.behaviors.js
 ;scripts[] = js-plugins/bulma-accordion.min.js
 
 ; ========================================
@@ -30,6 +30,11 @@ regions[navbar] = Navbar
 regions[header] = Header
 regions[navigation] = Navigation
 regions[highlighted] = Highlighted
+regions[lp_site_description] = Site Description (LP)
+regions[lp_grid01] = LP Grid 01
+regions[lp_grid02] = LP Grid 02
+regions[lp_grid03] = LP Grid 03
+regions[lp_grid04] = LP Grid 04
 regions[help] = Help
 regions[content] = Content
 regions[sidebar_first] = First Sidebar
