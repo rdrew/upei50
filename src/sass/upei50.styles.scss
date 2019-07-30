@@ -29,7 +29,17 @@ h1, h2 {
 .block01 {
 //display: none;
 }
+iframe.pdf {
+    height: 1000px;
+}
+.islandora-pdf-content {
+    margin-bottom:1rem;;
+} 
+.islandora-metadata-sidebar {
+    margin-bottom:1rem;
+} 
 
-
-
+.content dd {
+    margin-left:0;
+}
 

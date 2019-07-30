@@ -47,17 +47,37 @@ figure.orbit-figure::after {
   }
 
   .section-1 {
-    background: $bg-image-a no-repeat fixed;
-    background-size: cover;
-    background-position: center;
-    height: 100vh;
-    background-color: rgba(0, 0, 0, 0.5);
+      //bg image is set with inline css
+      background-position-x: center;
+      background-position-y: center;
+      background-size: cover;
+      background-repeat-x: no-repeat;
+      background-repeat-y: no-repeat;
+      background-attachment: fixed;
+      background-origin: initial;
+      background-clip: initial;
+      background-size: cover;
+      background-position: center;
+      height: 100vh;
+      background-color: rgba(0, 0, 0, 0.5);
   }
   .section-2 {
-    background: $bg-image-b no-repeat fixed;
-    background-size: cover;
-    background-position: center;
-    height: 100vh;
+    //background: $bg-image-b no-repeat fixed;
+    //background-size: cover;
+    //background-position: center;
+    //height: 100vh;
+      background-position-x: center;
+      background-position-y: center;
+      background-size: cover;
+      background-repeat-x: no-repeat;
+      background-repeat-y: no-repeat;
+      background-attachment: fixed;
+      background-origin: initial;
+      background-clip: initial;
+      background-size: cover;
+      background-position: center;
+      height: 100vh;
+      background-color: rgba(0, 0, 0, 0.5);
   }
   .section-3 {
     margin: 0 auto;
