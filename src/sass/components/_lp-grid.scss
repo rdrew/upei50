@@ -22,3 +22,36 @@
     }
   }
 }
+.view-landing-page-grid {
+  .lp-grid-image {
+    padding: 0;
+    a {
+      display: block;
+    }
+  }
+  .views-row {
+    font: 14px/1.6 "Source Code Pro", monospace;
+
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #fff;
+    color: #fff;
+
+    &-1 {
+      background-color: #fbb040;
+    }
+    &-2 {
+      background-color: #8c2004;
+      flex-direction: row-reverse;
+    }
+    &-3 {
+    }
+    &-4 {
+    }
+  }
+}
+.lp-grid-text {
+  margin: 0 auto;
+  padding: 20px 30px;
+  text-align: center;
+}
