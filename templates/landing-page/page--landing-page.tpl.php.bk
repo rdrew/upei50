@@ -7,7 +7,7 @@ $bg_image_a =  $page['content']['system_main']['nodes'][1]['field_background_ima
 $bg_image_a_path =  file_create_url($bg_image_a);
 $bg_image_b =  $page['content']['system_main']['nodes'][1]['field_background_image_b']['#items'][0]['uri'];
 $bg_image_b_path =  file_create_url($bg_image_b);
-//kpr($page);
+kpr($page);
 ?>
 
 <!--_____ Navbar region layout _____-->
@@ -56,18 +56,46 @@ Learn More
 <div class="content-4">&#8623;</div>
 </div></div>
 <!--_____ grid 01 _____-->
-<div class="site-description">
+<div class="grid">
 	<div class="full_width item-1">
 		<div class="content-5">
 			<?php print render($page['lp_site_description']); ?>
 		</div>
 	</div>
+	<div class="block01 item-2">
+		<div class="block-top-left content-7">
+			<?php print render($page['lp_grid01']); ?>
+		</div>
+	</div>
+
+	<div class="block02 item-3">
+		<div class="block-top-left content-7">
+			<?php print render($page['lp_grid02']); ?>
+		</div>
+	</div>
+	<div class="block03 item-4">
+		<div class="block-bottom-right content-7">
+			<?php print render($page['lp_grid03']); ?>
+		</div>
+	</div>
+	<div class="block04 item-5">
+		<div class="block-bottom-left content-7">
+			<?php print render($page['lp_grid04']); ?>
+		</div>
+	</div>
+	<div class="block03 item-4">
+		<div class="block-bottom-right content-7">
+			<?php print render($page['lp_grid03']); ?>
+		</div>
+	</div>
+	<div class="block04 item-5">
+		<div class="block-bottom-left content-7">
+			<?php print render($page['lp_grid04']); ?>
+		</div>
+	</div>
 </div>
 <!--_____ /grid 01 _____-->
 
-
-
-<?php print render($page["content"]); ?>
 <div class="section-2" style="background-image: url('<?php print $bg_image_b_path; ?>');">
 	<div class="content-7">
 		<div class="font-3">Nulla Rex</div>
@@ -76,6 +104,9 @@ Learn More
 		</div>
 	</div>
 </div>
+
+
+<?php print render($page["content"]); ?>
   <footer class="l-footer" role="contentinfo">
     <?php print render($page['footer']); ?>
   </footer>
