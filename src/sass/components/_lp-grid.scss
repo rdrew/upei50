@@ -23,6 +23,9 @@
   }
 }
 .view-landing-page-grid {
+  .column {
+    flex-basis: 50%;
+  }
   .lp-grid-image {
     padding: 0;
     a {
@@ -38,20 +41,40 @@
     color: #fff;
 
     &-1 {
-      background-color: #fbb040;
+      background-color: $upei-yellow;
     }
     &-2 {
-      background-color: #8c2004;
+      background-color: $upei-red;
       flex-direction: row-reverse;
     }
     &-3 {
+      background-color: $upei-green;
     }
     &-4 {
+      flex-direction: row-reverse;
+      background-color: $upei-yellow;
     }
   }
+  h2 {
+    text-align: center;
+    color: #fff;
+  }
+  a {
+    line-height: 0;
+  }
+}
+.site-description * {
+  color: #fff;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  text-transform: uppercase;
 }
 .lp-grid-text {
   margin: 0 auto;
-  padding: 20px 30px;
+  padding: 70px 30px;
   text-align: center;
+  color: #fff;
+}
+.columns {
+  //margin-bottom: 0 !important;
 }
