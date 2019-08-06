@@ -7,6 +7,42 @@ $content-heading-weight: 400;
   font-weight: $content-heading-weight;
   line-height: $content-heading-line-height;
 }
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+  line-height: 1.15;
+  font-family: $family-serif;
+  font-weight: 600;
+}
+
+h1 {
+  margin-top: 0;
+  font-size: 4.209em;
+}
+
+h2 {
+  font-size: 3.157em;
+}
+
+h3 {
+  font-size: 2.369em;
+}
+
+h4 {
+  font-size: 1.777em;
+}
+
+h5 {
+  font-size: 1.333em;
+}
+
+small,
+.text_small {
+  font-size: 0.75em;
+}
 .content {
   h1,
   h2,
