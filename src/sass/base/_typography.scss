@@ -4,8 +4,14 @@ $content-heading-weight: 400;
   font-family: $family-serif;
   color: $content-heading-color;
   color: $text;
+  background: none;
   font-weight: $content-heading-weight;
+  font-size: 3.157em;
   line-height: $content-heading-line-height;
+  font-weight: 600;
+  a {
+    color: $text;
+  }
 }
 
 h1,
@@ -15,7 +21,7 @@ h4,
 h5 {
   line-height: 1.15;
   font-family: $family-serif;
-  font-weight: 600;
+  //font-weight: 600;
 }
 
 h1 {
@@ -90,7 +96,7 @@ small,
   h5 {
     line-height: 1.15;
     font-family: $family-serif;
-    font-weight: 600;
+    //font-weight: 600;
   }
 
   //h1 {
