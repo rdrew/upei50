@@ -36,6 +36,9 @@
     //font: 14px/1.6 "Source Code Pro", monospace;
     //font-weight: bold;
 
+    a {
+      color: #fff !important;
+    }
     letter-spacing: 2px;
     text-transform: uppercase;
     color: #fff;
@@ -80,7 +83,7 @@
 }
 .lp-grid-text.column {
   display: flex;
-  padding: 0 75px;
+  padding: 1rem 75px;
   flex-direction: column;
   align-items: center;
   justify-content: center;
