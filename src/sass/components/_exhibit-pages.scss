@@ -5,3 +5,17 @@
 } 
 .np-list > ul > li > ul > li{
 } 
+
+.page-node-123 {
+    h3 {
+        margin-bottom:0;
+    }
+    .content ul {
+        list-style:none;
+        margin-left: 0;
+
+    }
+    ul li:first-child {
+        margin-bottom:2rem;
+    }
+}
