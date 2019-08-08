@@ -70,7 +70,7 @@ Learn More
 <?php print render($page["content"]); ?>
 <div class="section-2" style="background-image: url('<?php print $bg_image_b_path; ?>');">
 	<div class="content-7">
-		<div class="font-3">Nulla Rex</div>
+		<div class="font-3">Celebrating 50 Years of UPEI</div>
 		<div class="font-2 content-6">Vulputate dolor vel rex laoreet dolore.<p>Luptatum nisl esse aliquip, eu veniam quis ex accumsan illum nulla eros dolore vulputate.
 		<div class="content-4">&#9813;</div>
 		</div>

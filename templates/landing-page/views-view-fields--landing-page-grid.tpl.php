@@ -23,7 +23,6 @@
  *
  * @ingroup views_templates
  */
-dsm($fields);
 ?>
     <?php print $fields['field_thumbnail_image']->content; ?>
     <?php print $fields['field_exhibit_description']->content; ?>
