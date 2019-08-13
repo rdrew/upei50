@@ -11,4 +11,4 @@ print render($grid['content']);
 
 
 
-<div class="section-4 font-4">Get Volpi <a href="http://www.tipue.com/grids/">here</a></div>
+<div class="section-4 font-4">2019 <a href="library.upei.ca">Robertson Library</a>, University of Prince Edward Island</div>
