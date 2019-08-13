@@ -70,16 +70,26 @@
     line-height: 0;
   }
 }
+$lp_text-block_font-size: 18px;
+$lp_text-block_font-weight: 600;
 .site-description * {
   color: #fff;
   letter-spacing: 2px;
   text-transform: uppercase;
   line-height: 1.6;
+  p {
+    font-weight: $lp_text-block_font-weight;
+    font-size: $lp_text-block_font-size;
+  }
 }
 .lp-grid-text {
   margin: 0 auto;
   text-align: center;
   color: #fff;
+  p {
+    font-weight: $lp_text-block_font-weight;
+    font-size: $lp_text-block_font-size;
+  }
 }
 .lp-grid-text.column {
   display: flex;
