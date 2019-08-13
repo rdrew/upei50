@@ -101,3 +101,16 @@ $lp_text-block_font-weight: 600;
 .columns {
   //margin-bottom: 0 !important;
 }
+.lp_bottom_branding {
+  svg {
+    margin-top: 1rem;
+  }
+  background: #2929298a;
+  border-radius: 10px 10px 0 0;
+  padding: 1rem;
+  border: 4px double #ccc;
+  border-bottom: 0;
+}
+.node-type-landing-page .content-7 {
+  //margin-top: 2rem;
+}
