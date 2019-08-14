@@ -72,7 +72,10 @@ Learn More
 		<div class="content-7">
 	<div class="lp_bottom_branding">
 			<div class="font-3">Celebrating 50 Years of UPEI</div>
+			<div class="font-2 content-6"><h4>Robertson Library</h4>
 	<div class="upei-logo">
+
+<a href="upei.ca">
 
 	<svg width="403px" height="158px" viewBox="0 0 403 158" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
 			<!-- Generator: Sketch 42 (36781) - http://www.bohemiancoding.com/sketch -->
@@ -118,11 +121,10 @@ Learn More
 			</g>
 	</svg>
 	</div>
-			<div class="font-2 content-6">Robertson Library,
-	Unversity of Prince Edward Island
 	550 University Avenue, Charlottetown
 	Prince Edward Island, Canada C1A 4P3
 	</div>
+</a>
 		</div>
 	</div>
 </div>
