@@ -58,6 +58,7 @@ var sass         = require("gulp-sass");
 var autoprefixer = require("gulp-autoprefixer");
 var sourcemaps   = require("gulp-sourcemaps");
 var concat       = require("gulp-concat");
+var breakpoints = require('@sassi/breakpoints');
 //var cache = require('gulp-cache');
 
 //===================
@@ -100,6 +101,7 @@ gulp.task("sass", function() {
   return gulp
     .src(sassWatchDir)
     .pipe(sourcemaps.init())
+    .pipe(sass({ includePaths: [breakpoints] }))
     .pipe(sass().on("error", sass.logError))
     .pipe(sourcemaps.write())
     .pipe(gulp.dest(compiledCssDir));
