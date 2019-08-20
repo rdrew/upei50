@@ -77,7 +77,7 @@ Learn More
 
 <a href="upei.ca">
 
-	<svg width="403px" height="158px" viewBox="0 0 403 158" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<svg viewBox="0 0 403 158" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
 			<!-- Generator: Sketch 42 (36781) - http://www.bohemiancoding.com/sketch -->
 			<title>UPEI_Logo_white</title>
 			<desc>Created with Sketch.</desc>
