@@ -9,6 +9,7 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "@sassi/breakpoints": "^1.1.0",
     "breakpoint-sass": "^2.7.1",
     "browser-sync": "^2.24.7",
     "bs-rewrite-rules": "^2.1.2",

@@ -19,6 +19,7 @@ nav .menu {
 
 nav .menu a {
   @extend .navbar-item;
+  //@extend .button;
 }
 
 .menu .leaf {
