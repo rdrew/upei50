@@ -101,6 +101,11 @@ $lp_text-block_font-weight: 600;
 .columns {
   //margin-bottom: 0 !important;
 }
+.section-2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
 .lp_bottom_branding {
   svg {
     margin-top: 1rem;
