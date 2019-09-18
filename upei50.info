@@ -26,8 +26,8 @@ scripts[] = dist/js/upei50.behaviors.js
 ; ========================================
 ; libraries
 ; ========================================
-scripts[]          = libraries/blueimp-gallery/js/blueimp-gallery.js
-stylesheets[all][] = libraries/blueimp-gallery/css/blueimp-gallery.css
+scripts[]          = js-plugins/blueimp-gallery/js/blueimp-gallery.js
+stylesheets[all][] = js-plugins/blueimp-gallery/css/blueimp-gallery.css
 
 ; ========================================
 ; Regions
