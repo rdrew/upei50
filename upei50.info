@@ -28,7 +28,8 @@ scripts[] = dist/js/upei50.behaviors.js
 ; ========================================
 scripts[]          = js-plugins/blueimp-gallery/js/blueimp-gallery.js
 stylesheets[all][] = js-plugins/blueimp-gallery/css/blueimp-gallery.css
-
+scripts[]          = js-plugins/imagesloaded.pkgd.min.js 
+scripts[]          = js-plugins/masonry.pkgd.min.js 
 ; ========================================
 ; Regions
 ; ========================================
