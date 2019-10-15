@@ -29,9 +29,9 @@ var compiledCssDir           = "./dist/css";
 // js src
 var jsWatchDir               = "./src/js/*.js";
 // js destination
-var compiledJsDir            = "upei50.behaviors.js";
+var compiledJsDir            = "./dist/js";
 // compliled js filename
-var jsFileName               = "./dist/js/";
+var jsFileName               = "upei50.behaviors.js";
 //img src
 var imgSrc                   = "./src/gfx/**/*";
 // img destination
@@ -114,8 +114,8 @@ gulp.task("sass", function() {
 gulp.task("js", function() {
   gulp
     .src(jsWatchDir) // path to your files
-    .pipe(concat(compiledCssDir)) // concat and name it "concat.js"
-    .pipe(gulp.dest(jsFileName));
+    .pipe(concat(jsFileName)) // concat and name it "concat.js"
+    .pipe(gulp.dest(compiledJsDir));
 });
 
 //====================

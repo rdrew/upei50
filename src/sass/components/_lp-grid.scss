@@ -58,6 +58,10 @@
       flex-direction: row-reverse;
       background-color: $upei-yellow;
     }
+    &-5 {
+      background-color: $upei-red;
+      margin-bottom: 0;
+    }
   }
   h2 {
     text-align: center;
