@@ -51,12 +51,12 @@ $bg_image_b_path =  file_create_url($bg_image_b);
 </div>
 </div>
 <!-- /hero text block -->
-<div class="content-3 font-2">
-Learn More
+<div class="content-3 font-2" ><a href="#grid">
+See Exhibits
 <div class="content-4">&#8623;</div>
-</div></div>
+</a></div></div>
 <!--_____ grid 01 _____-->
-<div class="site-description">
+<div id="grid" class="site-description">
 	<div class="full_width item-1">
 		<div class="content-5">
 			<?php print render($page['lp_site_description']); ?>
