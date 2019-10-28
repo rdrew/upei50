@@ -14,9 +14,9 @@
 <?php endif; ?>
 
 <div id="tbt_grid<?php print $id; ?>" class="tbt_grid_<?php print $id; ?> tbt_grid">
-	<?php foreach ($rows as $id => $row): ?>
-			<?php print $row; ?>
-	<?php endforeach; ?>
+    <?php foreach ($rows as $id => $row): ?>
+            <?php print $row; ?>
+    <?php endforeach; ?>
 </div>
 <hr>
 
