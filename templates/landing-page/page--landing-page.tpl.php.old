@@ -1,12 +1,14 @@
-<?php $main_menu_tree=m enu_tree(variable_get(
-'menu_main_links_source', 'main-menu')); $main_menu_tree1=m enu_tree(variable_get(
-'menu_main_links_source', 'user-menu')); $image_a='/sites/upei50.dev.islandarchives.ca/themes/upei50/build/gfx/dalton_hall.jpg'
-; $image_b='/sites/upei50.dev.islandarchives.ca/themes/upei50/build/gfx/marian-college-harris-2.jpg'
-; $bg_image_a=$ page[ 'content'][ 'system_main'][ 'nodes'][1][
-'field_background_image_a'][ '#items'][0][ 'uri']; $bg_image_a_path=f ile_create_url($bg_image_a);
-$bg_image_b=$ page[ 'content'][ 'system_main'][ 'nodes'][1][
-'field_background_image_b'][ '#items'][0][ 'uri']; $bg_image_b_path=f ile_create_url($bg_image_b);
-//kpr($page); ?>
+<?php
+$main_menu_tree = menu_tree(variable_get('menu_main_links_source', 'main-menu'));
+$main_menu_tree1 = menu_tree(variable_get('menu_main_links_source', 'user-menu'));
+$image_a =  '/sites/upei50.dev.islandarchives.ca/themes/upei50/build/gfx/dalton_hall.jpg';
+$image_b =  '/sites/upei50.dev.islandarchives.ca/themes/upei50/build/gfx/marian-college-harris-2.jpg';
+$bg_image_a =  $page['content']['system_main']['nodes'][1]['field_background_image_a']['#items'][0]['uri'];
+$bg_image_a_path =  file_create_url($bg_image_a);
+$bg_image_b =  $page['content']['system_main']['nodes'][1]['field_background_image_b']['#items'][0]['uri'];
+$bg_image_b_path =  file_create_url($bg_image_b);
+//kpr($page);
+?>
 <!--_____ Navbar region layout _____-->
 <!--_____ Navbar _____-->
 <nav class="navbar" role="navigation" aria-label="main navigation">
