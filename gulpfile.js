@@ -4,7 +4,7 @@
 // Dev site settings
 // ==================
 
-var devSiteUrl = "https://upei50.dev.islandarchives.ca/";
+var devSiteUrl = "https://50.library.upei.ca/";
 //what should BS serve?
 var filesToServe = ["."];
 // what css/js files in dist should trigger bs reload
