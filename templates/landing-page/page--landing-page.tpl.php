@@ -73,9 +73,9 @@ See Exhibits
 	<div class="lp_bottom_branding">
 			<div class="font-3">Celebrating 50 Years of UPEI</div>
 			<div class="font-2 content-6"><h4>Robertson Library</h4>
-	<div class="upei-logo">
 
-<a href="upei.ca">
+        <div class="upei-logo">
+<a href="https://upei.ca">
 
 	<svg viewBox="0 0 403 158" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
 			<!-- Generator: Sketch 42 (36781) - http://www.bohemiancoding.com/sketch -->
@@ -125,9 +125,19 @@ See Exhibits
 	Prince Edward Island, Canada C1A 4P3
 	</div>
 </a>
+<<<<<<< HEAD
 		</div>
 	</div>
 </div>
   <footer class="l-footer" role="contentinfo">
     <?php print render($page['footer']); ?>
   </footer>
+=======
+
+        </div>
+      </div>
+    </div>
+    <footer class="l-footer" role="contentinfo">
+      <?php print render($page[ 'footer']); ?>
+    </footer>
+>>>>>>> 4940f2dd840424053c63943daf2d0112e82ca95a
