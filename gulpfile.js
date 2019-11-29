@@ -13,9 +13,9 @@ var bsReloadTriggers = [
   "./dist/js/upei50.behaviors.js"
 ];
 // bs url match/replace
-var cssRemoteMatch   = "/sites/upei50.dev.islandarchives.ca/themes/upei50/dist/css/upei50.styles.css";
+var cssRemoteMatch   = "/sites/50.library.upei.ca/themes/upei50/dist/css/upei50.styles.css";
 var cssRemoteReplace = "/dist/css/upei50.styles.css";
-var jsRemoteMatch    = "/sites/upei50.dev.islandarchives.ca/themes/upei50/dist/js/upei50.behaviors.js";
+var jsRemoteMatch    = "/sites/50.library.upei.ca/themes/upei50/dist/js/upei50.behaviors.js";
 var jsRemoteReplace  = "/dist/js/upei50.behaviors.js";
 
 //font src

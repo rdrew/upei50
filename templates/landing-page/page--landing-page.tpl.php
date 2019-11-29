@@ -125,19 +125,9 @@ See Exhibits
 	Prince Edward Island, Canada C1A 4P3
 	</div>
 </a>
-<<<<<<< HEAD
-		</div>
-	</div>
-</div>
-  <footer class="l-footer" role="contentinfo">
-    <?php print render($page['footer']); ?>
-  </footer>
-=======
-
         </div>
       </div>
     </div>
     <footer class="l-footer" role="contentinfo">
       <?php print render($page[ 'footer']); ?>
     </footer>
->>>>>>> 4940f2dd840424053c63943daf2d0112e82ca95a
