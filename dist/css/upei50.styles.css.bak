@@ -6,9 +6,6 @@
   to {
     transform: rotate(359deg); } }
 
-/*.tbt_grid {
-  display: none;
-}*/
 .delete, .modal-close, .is-unselectable, .button, #edit-cancel, .file, .breadcrumb, .pagination-previous,
 .pagination-next,
 .pagination-link,
